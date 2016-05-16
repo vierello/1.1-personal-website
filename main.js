@@ -1,0 +1,1 @@
+alert('Beagles are great');

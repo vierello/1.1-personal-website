@@ -1,0 +1,33 @@
+body{
+  background-image: url('http://cdn-0.dooziedog.com/dog_breeds/beagle/images/full/Beagle-Puppy-6.jpg');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: black;
+}
+
+h1,
+h2{
+  text-align: center;
+}
+
+.nav-links{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link{
+  border: 2px solid brown;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: brown;
+}
