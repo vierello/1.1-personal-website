@@ -1,5 +1,54 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 body{
-  background-image: url('http://cdn-0.dooziedog.com/dog_breeds/beagle/images/full/Beagle-Puppy-6.jpg');
+  background-color: rgba(0,0,0,.5);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -7,27 +56,111 @@ body{
   color: black;
 }
 
-h1,
+header{
+  background-image: url('http://www.hinghambeagles.com/s/img/emotionheader.jpg?1401570027.920px.355px');
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  top: -50px;
+}
+
+h1{
+  text-align: Center;
+  font-size: 100px;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  position: relative;
+  top: 50px;
+}
+
 h2{
   text-align: center;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  position: relative;
+  top: 100px;
+}
+
+.nav-bar{
+  height: 40px;
+  background-color: rgba(0,0,0,.5);
+  position: relative;
+  top: 254px;
 }
 
 .nav-links{
   width: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   padding: 0;
   list-style-type: none;
 }
 
 .nav-link{
-  border: 2px solid brown;
+  border: 2px solid white;
   display: inline-block;
   width: 150px;
   text-align: center;
+  margin-top: 9px;
 }
 
 .nav-link a{
   text-decoration: none;
-  color: brown;
+  color: white;
+}
+
+.beagle-color1{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+.beagle-color2{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 0 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+.chloe-pics{
+  text-align: Center;
+  margin: 10px 10px;
+}
+
+.chloe-pic{
+  margin: 10px 10px;
+}
+
+thead{
+  text-size: 20px;
+}
+
+.puppy-adult{
+  text-align:center;
+}
+
+.html-marquee {
+  height: 100px;
+  background-color: ffff33;
+  font-family: Helvetica;
+  font-size: 24px;
+  color: 000000;
+  border: 4 solid brown;
+}
+
+footer{
+  text-align: center;
 }

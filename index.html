@@ -6,21 +6,105 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+
+    <marquee class="html-marquee" direction="left" behavior="scroll" scrollamount="12" >Beagles woooooooohoooooooooo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</marquee>
+
     <header>
       <h1>Beagles</h1>
       <h2>Beagles are great dogs!</h2>
+      <div class="nav-bar">
+        <ul id="beagle-links" class="nav-links">
+          <li class="nav-link"><a href="https://www.google.com/search?q=beagle+pictures&espv=2&biw=1050&bih=695&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwiuiqyL9d7MAhUs7YMKHfcaDp4QsAQIGw">Beagle Pictures</a></li>
+          <li class="nav-link"><a href="my-beagle.html">My Beagle</a></li>
+        </ul>
+      </div>
     </header>
 
     <hr />
 
-    <p>Beagles are one of the most kid friendly dog breeds!!</p>
+    <p>Here is all the information you could ever want on the Beagle Breed.</p>
+      <li class="nav-link"><a href="http://www.akc.org/dog-breeds/beagle/">Beagle Breed Info</a></li>
 
-    <ul id="beagle-links" class="nav-links">
-      <li class="nav-link"><a href="http://www.akc.org/dog-breeds/beagle/">Beagle Breed Info<a/></li>
-      <li class="nav-link"><a href="https://www.google.com/search?q=beagle+pictures&espv=2&biw=1050&bih=695&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwiuiqyL9d7MAhUs7YMKHfcaDp4QsAQIGw">Beagle Pictures</a></li>
-    </ul>
+<br />
+<br />
+<br />
+
+    <table>
+      <thead colspan="3">There are quite a few different colors of Beagles.</thead>
+      <tr>
+        <div class="beagle-colors1">
+          <td>
+            <div class="beagle-color1">
+              <div class="images"><img src="/Users/V/Documents/code/1.1-personal-website/assets/chocolate_adult_small.jpg"></div>
+              <p>Chocolate-Tri</p>
+            </div>
+          </td>
+          <td>
+            <div class="beagle-color1">
+              <div class="images"><img src="/Users/V/Documents/code/1.1-personal-website/assets/lilac.jpg"></div>
+              <p>Lilac</p>
+            </div>
+          </td>
+          <td>
+            <div class="beagle-color1">
+              <div class="images"><img src="/Users/V/Documents/code/1.1-personal-website/assets/mottle.jpg"></div>
+              <p>Mottle</p>
+            </div>
+          </td>
+        </div>
+      </tr>
+
+      <tr>
+        <div class="beagle-colors2">
+          <td>
+            <div class="beagle-color2">
+              <div class="images"><img src="/Users/V/Documents/code/1.1-personal-website/assets/open-marked.jpg"></div>
+              <p>Open Marked</p>
+            </div>
+          </td>
+          <td>
+            <div class="beagle-color2">
+              <div class="images"><img src="/Users/V/Documents/code/1.1-personal-website/assets/tan-white.jpg"></div>
+              <p>Tan-White</p>
+            </div>
+          </td>
+        </div>
+      </tr>
+    </table>
+
+<br />
+<br />
+<br />
+
+  <div class="puppy-adult">
+    <h4>From puppy to adult, "click image"</h4>
+    <img id="myImage" onclick="changeImage()" src="/Users/V/Documents/code/1.1-personal-website/assets/puppy.jpg" width="150" height="150">
+  </div>
+
+<br />
+<br />
+<br />
+
+    <div><blink><center> Thank you for visiting!! </blink></div>
+
+    <footer>
+      <img src="http://www.netanimations.net/animated-roped-off-construction-barracades.gif">
+    </footer>
 
     <script src="main.js"></script>
-
+<!--
+    <script type="text/javascript">
+          function blinkLastDateSpan(){
+              if($("#lastDateBlinker").css("visibility").toUpperCase() == "HIDDEN"){
+                  $("#lastDateBlinker").css("visibility","visible");
+                  setTimeout(blinkLastDateSpan,200);
+              }else{
+                  $("#lastDateBlinker").css("visibility","hidden");
+                  setTimeout(blinkLastDateSpan,200);
+              }
+          }
+          blinkLastDateSpan();
+      </script>
+-->
   </body>
 </html>
