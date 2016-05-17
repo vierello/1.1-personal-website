@@ -4,9 +4,9 @@
 function changeImage() {
   var image = document.getElementById('myImage');
   if (image.src.match("adult")) {
-    image.src = "/Users/V/Documents/code/1.1-personal-website/assets/puppy.jpg";
+    image.src = "assets/puppy.jpg";
   } else {
-    image.src = "/Users/V/Documents/code/1.1-personal-website/assets/adult.jpg";
+    image.src = "assets/adult.jpg";
   }
 }
 
