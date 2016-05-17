@@ -144,8 +144,9 @@ h2{
   margin: 10px 10px;
 }
 
-thead{
-  text-size: 20px;
+.body-text{
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .puppy-adult{
